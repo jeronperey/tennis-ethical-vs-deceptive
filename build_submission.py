@@ -29,7 +29,7 @@ def md(src):
             para.append(line.strip())
     flush(); return "\n".join(out)
 
-REPO = "[ADD PUBLIC GITHUB LINK HERE]"
+REPO = "https://github.com/jeronperey/tennis-ethical-vs-deceptive"
 page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Do aces win matches?</title>
 <style>
 @page cover {{ size: 11in 8.5in; margin: 0.35in; }}
@@ -54,7 +54,7 @@ code {{ font-size: 10pt; }} .todo {{ background: #fff3b0; padding: 0 3px; }}
 <section class="doc"><h1 class="sec">Implementation</h1>
 <p>Both visualizations are static SVG charts built with D3 (v7.9.0) from the same processed data.</p>
 <ul>
-<li><strong>Source code (public):</strong> <span class="todo">{REPO}</span></li>
+<li><strong>Source code (public):</strong> <a href="{REPO}">{REPO}</a></li>
 <li><code>prepare_data.py</code>: data processing (applies the exclusions and writes the win rates by ace gap).</li>
 <li><code>visualizations.js</code> and <code>index.html</code>: the two D3 visualizations, labelled A and B on the page.</li>
 <li><code>data/raw/</code> and <code>data/processed/</code>: the source files and the small CSVs the charts use.</li></ul></section>
