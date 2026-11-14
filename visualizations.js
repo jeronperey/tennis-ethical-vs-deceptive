@@ -35,8 +35,9 @@ function drawEthical(svg) {
   const g = frame(svg);
   const x = d3.scaleLinear([0, 100], [M.left, W - M.right]);
   text(g, 30, 44, "Do aces win matches?", { size: 26, weight: 800 });
-  text(g, 30, 72, "Share of ATP matches won by the player who hit more aces,", { fill: MUTED });
+  text(g, 30, 72, "Share of men's ATP tour matches won by the player who hit more aces,", { fill: MUTED });
   text(g, 30, 92, "grouped by how many more aces they hit. 2015–2024.", { fill: MUTED });
+  text(g, 30, 112, "An ace is a serve the opponent never touches.", { fill: MUTED });
   text(g, 30, 140, "Extra aces hit", { size: 13, weight: 700, fill: MUTED });
   text(g, x(50), 140, "50% = coin flip", { size: 13, fill: MUTED, anchor: "middle" });
 
@@ -73,6 +74,7 @@ function drawDeceptive(svg) {
   text(g, 30, 44, "Do aces win matches? Hit more, win more.", { size: 26, weight: 800 });
   text(g, 30, 72, "Share of ATP matches won by the player who hit more aces,", { fill: MUTED });
   text(g, 30, 92, "grouped by how many more aces they hit. 2015–2024.", { fill: MUTED });
+  text(g, 30, 112, "An ace is a serve the opponent never touches.", { fill: MUTED });
   text(g, 30, 140, "Extra aces hit", { size: 13, weight: 700, fill: MUTED });
 
   DATA.bins.forEach((d, i) => {

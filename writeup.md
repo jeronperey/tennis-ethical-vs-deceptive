@@ -13,9 +13,9 @@ My goal for B was that a tennis fan who does not know the statistics could read 
 - **Zero baseline, bar length.** Win rate is a quantity, and position and length on a shared scale are the most accurately read channels in the Cleveland and McGill ranking. The bars start at 0%, so length is proportional to value and the lie factor is 1.
 - **A 50% reference line.** A win rate only means something compared with chance, so a dashed "coin flip" line marks 50%.
 - **Sample sizes on every row.** The reader can see that each group is thousands of matches.
-- **Plain language.** The subtitle defines the quantity in words ("the player who hit more aces"), and the groups are labelled "extra aces hit."
+- **Plain language.** A fan who has never watched tennis can follow it: the subtitle defines an ace ("a serve the opponent never touches") and the quantity in words ("the player who hit more aces"), and the groups are labelled "extra aces hit."
 - **Transparent transformations and source.** The footnote gives the 23,723 of 27,672 matches, lists every exclusion, and names the source.
-- **Bias and limits.** The note says this shows association, not cause: stronger servers both hit more aces and win more. Aggregating to the match level treats every server alike, and binning hides variation within each group.
+- **Bias and limits.** The note says this shows association, not cause: stronger servers both hit more aces and win more. The subtitle says these are men's tour-level matches, because the data leaves out women's tennis and lower-level events, so the pattern may not hold for other players. Aggregating to the match level treats every server alike, and binning hides variation within each group.
 - **One color.** The groups are ordered, not categories, so there is no reason to add hue.
 - **The title is the question,** with no spin.
 
@@ -31,6 +31,8 @@ A uses the same data and the same chart type. Every number and label is true. Th
 ## Connection to the course readings
 
 I used the taxonomy from "I Came Across a Junk" (Lan and Liu) to name the choices. The truncated axis is listed under inaccuracy in the misinformation category. The distorted bar lengths it produces are data-visual disproportion, the most common flaw in their study of real charts. Leaving out sample sizes is a failure to show uncertainty, which the taxonomy lists under incompatibility. The Perils of Chart Deception paper (Mahbub et al.) tests eight deceptive designs on AI models, including axis manipulation, and finds that every model was fooled by at least one, so axis tricks like mine work even on readers that are not looking for them. In my chart, no single choice is dramatic. The deception works because several small choices point the same way.
+
+[ADD FROM LECTURE: name the deceptive techniques from the lecture slides that match choices 1 to 3 above, using the lecture's own terms.]
 
 ## Reflection on difficulty
 
