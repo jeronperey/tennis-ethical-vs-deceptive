@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Do aces win matches?</title>
+  <style>
+    body { margin: 0; padding: 32px 24px; background: #fff; color: #1f2328; font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
+    h1 { text-align: center; font-size: 34px; margin: 0 0 28px; }
+    .pair { display: flex; gap: 32px; justify-content: center; flex-wrap: wrap; }
+    figure { margin: 0; }
+    figcaption { font-size: 22px; font-weight: 800; margin: 0 0 8px; }
+    svg { display: block; max-width: 100%; height: auto; }
+  </style>
+</head>
+<body>
+  <h1>Do aces win matches?</h1>
+  <div class="pair">
+    <figure><figcaption>A</figcaption><svg id="vizA"></svg></figure>
+    <figure><figcaption>B</figcaption><svg id="vizB"></svg></figure>
+  </div>
+  <script src="lib/d3.min.js"></script>
+  <script src="data.js"></script>
+  <script src="visualizations.js"></script>
+</body>
+</html>
